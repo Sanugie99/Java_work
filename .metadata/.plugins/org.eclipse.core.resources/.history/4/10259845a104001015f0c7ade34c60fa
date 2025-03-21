@@ -1,0 +1,10 @@
+package ex01_first;
+
+public class Test {
+	// main함수
+	// 파일을 실행하면 main함수 안에 있는 코드가 실행이 된다.
+	//main 템플릿 -> main작성후 ctrl + spacebar
+	public static void main(String[] args) {
+		System.out.println("Hello, World");
+	}
+}
