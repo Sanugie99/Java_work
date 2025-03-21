@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;ex01_for&apos; to &apos;ex03_for&apos;&#x0D;&#x0A;- Original project: &apos;ex_0321&apos;&#x0D;&#x0A;- Original element: &apos;ex_0321/src/ex01_for&apos;&#x0D;&#x0A;- Renamed element: &apos;ex_0321/src/ex03_for&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;ex01_for&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;ex01_for" name="ex03_for" qualified="false" references="true" stamp="1742544421874" textual="false" version="1.0"/>
+</session>
