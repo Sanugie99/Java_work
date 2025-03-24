@@ -51,7 +51,7 @@ public class Ex02_do_while {
 		//학생의 국어 영어 수학 점수를 입력받는다
 		//단, 각 과목은 40점 이상이여야 하며
 		//40점 미만이면 과목점수를 다시 입력 받아야한다.
-		boolean num = false;
+		boolean num = true;
 		do {
 			System.out.print("국어점수를 입력하세요 : ");
 			int k = sc.nextInt();
@@ -64,9 +64,8 @@ public class Ex02_do_while {
 				num = false;
 			} else if(k > 40 && e > 40 && m > 40){
 				num = true;
-				break;
 			}
-		}while(true);
+		}while(num);
 		
 
 	}
