@@ -1,11 +1,4 @@
-INDEX VERSION 1.134+C:\full_stack_lsw\JAVA\Java_work\.metadata\.plugins\org.eclipse.jdt.core
-2311027255.index
-4191522488.index
-4273490593.index
-<<<<<<< HEAD
-1320899373.index
-=======
-1865797976.index
-1264058557.index
->>>>>>> e0db29b6716445b9fc1ea45f4053a4784354c700
+INDEX VERSION 1.134+D:\full_stack_lsw\3.JAVA\work\.metadata\.plugins\org.eclipse.jdt.core
 2890506694.index
+2311027255.index
+4273490593.index
