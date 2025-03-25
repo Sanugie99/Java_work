@@ -121,6 +121,17 @@ public class Exam1 {
 		 * 로또번호 생성하기
 		 * 1 ~ 45사이의 난수를 발생시켜 로또번호를 생성하는 프로그램 만들기.
 		 */
+		int[] lotto = new int[6];
+		outer:for(int i = 0; i < lotto.length;) {
+			lotto[i] = r.nextInt(45)+1;
+			for(int j = 0; j < i; j++) {
+				if(lotto[i] == lotto[j]) {
+					continue outer;
+				}
+			}
+			System.out.print(lotto[i]+" ");
+			i++;
+		}
 		
 	
 		
