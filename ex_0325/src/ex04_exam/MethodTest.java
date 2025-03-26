@@ -66,40 +66,21 @@ public class MethodTest {
 	 * 사용자가 입력한 숫자와 발생한 난수가 같을경우에
 	 * 프로그램을 종료
 	 */
-	Random r = new Random();
-	Scanner sc = new Scanner(System.in);
 	
-	int ran = r.nextInt(50)+1;
+	int ran = new Random().nextInt(50)+1;
 	int count = 1;
 	//사용자가 입력한 숫자와 난수를 체크하는 기능
-	public string check(int number) {
+	public int check(int number) {
 		if(number == ran) {
-			return "정답!";
-		}else if(number > ran) {
-			return "DOWN!!";
-		}else if(number < ran) {
-			return "UP!!";
+			return 0;
+		} else if(number > ran) {
+			return 1;
+		} else {
+			return 2;
 		}
 	}
 	
-	//  Graph라는 이름의 메인 클래스를 만들어 
-	//0 ~ 9사이의 난수를 100개 저장하는 배열을 만들고, 
-	//해당 배열이 가지고 있는 각 방의 난수를 판별하여 그래프화 해 보자.
-	//
-	//  단, 발생한 난수의 그래프화 작업은 PrintGraph클래스가 하도록 한다.
-	//
-	//  결과:
-	//  0507...... //난수 100개
-	//  0의 갯수 : ############ 12
-	//  1의 갯수 : ######### 9
-	//  2의 갯수 : ########### 11
-	//  3의 갯수 : ######## 8
-	//  4의 갯수 : ############## 14
-	//  5의 갯수 : ####### 7
-	//  6의 갯수 : ######### 9
-	//  7의 갯수 : ############# 13
-	//  8의 갯수 : ####### 7
-	//  9의 갯수 : ########## 10
+	
 	
 
 }
