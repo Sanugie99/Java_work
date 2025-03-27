@@ -9,4 +9,21 @@
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ex06_inheritance.Parent"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="exam1.Car"/>
+    <fullyQualifiedTypeName name="javax.management.remote.SubjectDelegationPermission"/>
+    <fullyQualifiedTypeName name="exam1.HybridCar"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="ex02_class_casting.SportCar"/>
+    <fullyQualifiedTypeName name="ex02_class_casting.OpenCar"/>
+    <fullyQualifiedTypeName name="ex02_class_casting.SchoolBus"/>
+    <fullyQualifiedTypeName name="ex02_class_casting.DeskCalender"/>
+    <fullyQualifiedTypeName name="ex02_class_casting.Calender"/>
+    <fullyQualifiedTypeName name="ex02_class_casting.Bike"/>
+    <fullyQualifiedTypeName name="ex02_class_casting.FourWheelBike"/>
+    <fullyQualifiedTypeName name="ex03_Polymorphism.ComputerRoom"/>
+    <fullyQualifiedTypeName name="ex03_Polymorphism.Computer"/>
+    <fullyQualifiedTypeName name="exam2.Substract"/>
+    <fullyQualifiedTypeName name="exam2.Calculator"/>
+    <fullyQualifiedTypeName name="ex04_interface.Kitchen"/>
 </qualifiedTypeNameHistroy>

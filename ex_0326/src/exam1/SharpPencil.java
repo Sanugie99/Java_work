@@ -1,14 +1,13 @@
 package exam1;
 
 public class SharpPencil extends Pen {
-	
-	@Override
-	public int getAmount(){
-		return amount;
+	 private int width;
+	 
+	 public void setWidth(int width) {
+		this.width = width;
 	}
-	
-	public void setAmount(int amount){
-		this.amount = amount;
+	 
+	 public int getWidth() {
+		return width;
 	}
-
 }
