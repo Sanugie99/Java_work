@@ -1,0 +1,73 @@
+package ex04_while;
+import java.util.*;
+public class Ex02_do_while {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		/*
+		 * while문과 같이 조건을 만족할 때까지 반복한다.
+		 * 다만, while문과 다른점은 먼저 루프를 한 번 실행한 후 조건식을 검사한다는 점이다.
+		 * 즉, 조건식의 결과와 상관없이 무조건 한 번은 실행한다.
+		 * 
+		 * do{
+		 * 	반복하고자 하는 명령
+		 * }while(조건식)
+		 */
+		
+		int i = 11;
+		do {
+			System.out.println(i);
+		} while(i<=10);
+		
+		//1 ~ 10까지의 총 합
+		int sum = 0;
+		i = 1;
+		do {
+			sum += i;
+			i++;
+		}while(i<=10);
+		System.out.println(sum);
+		
+		//비밀번호 확인 프로그램 만들기
+		//사용자로부터 비밀번호를 입력받아 올바른 비밀번호가 입력될때까지 계속 반복
+		//비밀번호 9486
+//		int pw = 9486;
+//		int inpw;
+//		boolean PW = false;
+//		System.out.print("비밀번호를 입력하세요 : ");
+//		do {
+//			inpw = sc.nextInt();
+//			if(inpw != pw) {
+//				System.out.print("비밀번호를 다시 입력하세요 : ");
+//				PW = false;
+//			} else if(inpw == pw) {
+//				System.out.println("접속 성공");
+//				PW = true;
+//			}
+//			
+//		}while(true);
+		
+		
+		//학생의 국어 영어 수학 점수를 입력받는다
+		//단, 각 과목은 40점 이상이여야 하며
+		//40점 미만이면 과목점수를 다시 입력 받아야한다.
+		boolean num = false;
+		do {
+			System.out.print("국어점수를 입력하세요 : ");
+			int k = sc.nextInt();
+			System.out.print("영어점수를 입력하세요 : ");
+			int e = sc.nextInt();
+			System.out.print("수학점수를 입력하세요 : ");
+			int m = sc.nextInt();
+			if(k < 40 || e < 40 || m < 40) {
+				System.out.print("과목 점수는 40점 이상입니다 다시 입력해주세요.");
+				num = false;
+			} else {
+				num = true;
+			}
+		}while(true);
+		
+
+	}
+
+}

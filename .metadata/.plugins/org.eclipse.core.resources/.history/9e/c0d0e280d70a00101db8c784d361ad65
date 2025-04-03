@@ -1,0 +1,5 @@
+package exam2;
+
+public abstract class Substract extends Calculator{
+
+}

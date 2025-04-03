@@ -1,0 +1,10 @@
+package ex02_switch;
+
+public class Ex03_switch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package ex03_Polymorphism;
+
+public class Apple extends Computer{
+	
+	@Override
+	public void powerOff() {
+		// TODO Auto-generated method stub
+		super.powerOff();
+		System.out.println("사랑해요 Apple");
+	}
+
+}

@@ -1,0 +1,10 @@
+package ex02_class_casting;
+
+public class BikeMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
