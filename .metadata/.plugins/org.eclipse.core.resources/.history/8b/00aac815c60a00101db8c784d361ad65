@@ -1,7 +1,0 @@
-package exam1;
-
-public class HybridWaterCar extends HybridCar {
-	int waterGauge;
-	
-
-}

@@ -1,8 +1,0 @@
-package ex_exception;
-
-public class Ex01_NullPointException {
-	public static void main(String[] args) {
-		String[] strArray = null;
-		System.out.println(strArray[0]);
-	}
-}

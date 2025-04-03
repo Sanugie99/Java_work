@@ -1,5 +1,0 @@
-package ex_exception;
-
-public class Ex01_NullPointException {
-
-}
