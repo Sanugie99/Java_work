@@ -1,6 +1,7 @@
 package ex02_stream;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -22,6 +23,16 @@ public class Exam1 {
 			.collect(Collectors.toList())
 			.forEach(System.out::println);
 		System.out.println("----------------------------------------");
+		
+		HashMap<String, Integer> hs = new HashMap<String, Integer>();
+		hs.put("1", 1);
+		hs.put("2", 2);
+		hs.put("3", 3);
+		hs.put("4", 4);
+		hs.put("5", 5);
+		
+		hs.get(entry.getKey());
+		
 
 	}
 
