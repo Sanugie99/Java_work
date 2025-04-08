@@ -6,7 +6,7 @@ public class JoinMain {
 		je.start();
 		
 		try {
-			je.join();//main스레드는 worker스레드가 끝날때 까지 기다린다.
+			je.join();//main스레드는 je스레드가 끝날때 까지 기다린다.
 		} catch (Exception e) {
 			
 		}
