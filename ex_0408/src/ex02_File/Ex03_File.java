@@ -1,4 +1,4 @@
-package ex02_file;
+package ex02_File;
 import java.io.*;
 public class Ex03_File {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ex02_file;
+package ex02_File;
 
 import java.io.File;
 import java.util.Arrays;
