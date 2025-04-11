@@ -26,7 +26,9 @@ public @interface TestInfo {
 	//String value() throw Exception;
 	
 	//속성은 매개변수를 가질 수 없다
-	String name(String input);
+	String name();
+	int career() default 1;
+	String[] skills();
 	
 	String value() default "홍길동"; //추상메서드로 선언해야 한다.
 }

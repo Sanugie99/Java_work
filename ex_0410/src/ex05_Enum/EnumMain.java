@@ -1,6 +1,7 @@
 package ex05_Enum;
 
 import java.util.Arrays;
+import java.util.Calendar;
 
 public class EnumMain {
 	public static void main(String[] args) {
@@ -71,7 +72,10 @@ public class EnumMain {
 		int color = 999999; //문법적으로 틀린건 아니라서 에러는 안남
 		//단 우리가 설정한 색의 범주가 아님
 		
-		Color color = Color.RED;//Color타입만 들어올 수 있다.
+		//Color color = Color.RED;//Color타입만 들어올 수 있다.
 		
+		//생성자를 직접 호출하는것이 아닌 getInstance()라는 메서드를 통해
+		//이미 만들어진 객체를 부루러올 수있다
+		Calendar cal = Calendar.getInstance();
 	}
 }
