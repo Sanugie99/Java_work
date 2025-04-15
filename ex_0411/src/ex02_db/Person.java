@@ -1,16 +1,17 @@
 package ex02_DB;
 
 public class Person {
-	
+
 	private int idx;
+	private String name;
+	private int age;
+	
 	public int getIdx() {
 		return idx;
 	}
 	public void setIdx(int idx) {
 		this.idx = idx;
 	}
-	private String name;
-	private int age;
 	public String getName() {
 		return name;
 	}
@@ -23,4 +24,7 @@ public class Person {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	
+	
+	
 }

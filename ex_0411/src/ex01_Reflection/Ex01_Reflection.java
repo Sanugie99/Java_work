@@ -6,20 +6,20 @@ import java.lang.reflect.Parameter;
 
 public class Ex01_Reflection {
 	public static void main(String[] args) {
-		//User클래스에 대한 정보가 clazz에 담긴다
+		//User클래스에 대한 정보가 clazz에 담긴다.
 		//필드의 목록, 메서드의 목록 etc...
 		Class<?> clazz = User.class;
 		
 		//필드의 개수
-		Field[] fields = clazz.getDeclaredFields();//모든 필드 포함
+		Field[] fields = clazz.getDeclaredFields();//모든 필드(private 포함)
 		
 		System.out.println("필드의 개수 : " + fields.length);
 		
 		//필드의 목록을 출력
-		//getType() : 필드의 타입을 출력
 		//getName() : 필드의 이름을 출력
+		//getType() : 필드의 타입을 출력
 		for(Field f : fields) {
-			System.out.println("- " + f.getType() + " " + f.getName());
+			System.out.println("- " +f.getType()+" "+ f.getName());
 		}
 		
 		//메서드 목록 가져오기
@@ -28,15 +28,33 @@ public class Ex01_Reflection {
 		for(Method method : methods) {
 			String name = method.getName();
 			Class<?> returnType = method.getReturnType();
-			Parameter[] parameters = method.getParameters();
+			Parameter[] parametrs = method.getParameters();
 			
-			System.out.print("- " + returnType.getSimpleName() + " " + name + "(");
+			System.out.print("- " + returnType.getSimpleName()+" " + name+"(");
 			
-			for(Parameter parameter : parameters) {
+			for(Parameter parameter : parametrs) {
 				System.out.print(parameter.getName());
 				System.out.print(", ");
 			}
 			System.out.println(")");
 		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 }
+
+
+
+
+
+
+
+
+

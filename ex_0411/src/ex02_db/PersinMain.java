@@ -5,7 +5,7 @@ import java.util.List;
 public class PersinMain {
 	public static void main(String[] args) {
 		
-		PersinMethod.add
+		PersonMethod.add(4, "John", 50);
 		List<Person> list = PersonMethod.find();
 		
 		for(Person p : list) {
