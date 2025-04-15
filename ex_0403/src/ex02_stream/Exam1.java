@@ -1,5 +1,6 @@
 package ex02_stream;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -31,7 +32,7 @@ public class Exam1 {
 		hs.put("4", 4);
 		hs.put("5", 5);
 		
-		hs.get(entry.getKey());
+		List<Integer> list = new ArrayList<>(hs.values());
 		
 
 	}

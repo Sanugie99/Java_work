@@ -15,4 +15,8 @@ public class Gen<T> {
 	public T getValue() {
 		return value;
 	}
+	
+	//제네릭 메서드
+	//메서드의 선언부에 타입 매개변수를 따로 추가를 하는 것.
+	//이 경우, 메서드 내부에서 사용되는 타입이 메서드 호출시 결정
 }

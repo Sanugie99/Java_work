@@ -13,10 +13,22 @@ class Greeting{
 	}
 	
 	public String sayHello() {
-		return "Hello, " + name;
+		return "hello, " + name;
+	}
+}
+
+class Student{
+	private int score;
+	
+	public Student(int score) {
+		this.score = score;
 	}
 	
+	public boolean isPassed(int cutLine) {
+		return score >= cutLine;
+	}
 }
+
 public class Exam2 {
 	public static void main(String[] args) {
 		//Greeting메서드를 참조하여 sayHello()호출하기
